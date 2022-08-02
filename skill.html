@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Skills | Protofilo</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Font Awesome CSS -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<script src="https://kit.fontawesome.com/2b6685be60.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+*{box-sizing : border-box;}
+html{
+    scroll-behavior: smooth;
+  }
+ 
+body{
+  background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgba(36, 11, 54,0.8) , rgba(195, 20, 50, 0.8));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,  rgba(36, 11, 54,0.7) , rgba(195, 20, 50, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media(min-width:0px) and (max-width:315px) {
+
+.navbar-brand {
+  font-size: 20px !important;
+}
+
+}
+
+
+@media(min-width:0px) and (max-width:766px) {
+
+.navbar-brand svg {
+  margin-left: 5% !important;
+}
+
+
+.tv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.tv h5{
+     font-size: 17px;
+}
+
+
+}
+
+
+
+
+@media(max-width:500px){
+
+
+#btn1{
+      display: block;
+margin-top: 3%; 
+    }
+
+#btn2{
+margin-top: 3%; 
+    }
+
+    #session{
+      height: 360px;
+     }
+
+.review{
+  margin-bottom: 8% !important;
+}     
+
+ex{
+        margin-bottom: 4% !important;
+        margin-top: 4% !important;
+       }    
+
+       .card{
+        margin-bottom: 10%;
+       }
+
+}
+
+
+@media(min-width:501px) and (max-width:767px){
+    .test{color:blue;}
+
+
+    #first{
+        display: none;
+    }
+
+    .flex{
+      flex-direction: column;
+    }
+  
+
+    h1{
+      font-size: 27px;
+    }
+
+    .flex-text{
+      width:100% !important;
+      text-align: center !important;
+       }
+
+       .flex-photo{
+        margin-top: 10% !important;
+       }
+
+       .lang{
+    margin-top: 10% !important;
+       }
+
+             
+       .card{
+        margin-bottom: 12% !important;
+       }
+
+       .ex{
+        margin-bottom: 4% !important;
+        margin-top: 4% !important;
+       }
+
+
+      
+       #btn1{
+         display: block;
+         margin-top: 3%;
+       }
+
+       #session{
+        height: 360px;
+       }
+            
+       .review{
+  margin-bottom: 8% !important;
+}     
+
+.navbar-brand{
+      margin-left: 0 !important;
+    }
+
+    .navbar-nav{
+      margin-top: 5%;
+    }
+
+
+
+    }
+    
+    @media(min-width:768px) and (max-width:991px){
+        .test{color:yellow;}
+        
+
+    
+
+    #second{
+            display: none;
+          
+        }
+
+        .flex{
+          align-items: center !important;
+          margin-top: 0 !important;
+        }
+
+        .flex-text{
+      width:60% !important;
+      text-align: left !important;
+      margin: 0 !important;
+       }
+
+       .flex-text h1{
+        font-size: 28px;
+       }
+
+       .flex-photo{
+        width: 40% !important;
+        margin-top: 1% !important;
+       }
+
+       .lang{
+    margin-top: 8% !important;
+       }
+      
+       .card{
+        margin-bottom: 12% !important;
+       }
+
+       
+       #btn1{
+        display: block !important;
+        margin-top: 3% !important;
+       }
+
+       #session{
+        height: 350px;
+       }
+
+
+       .phide{
+        display: none;
+       }
+      
+       .pro{
+        margin-top: 6% !important;
+       }
+
+
+       .navbar ul{
+  margin-left: 60%;
+}
+
+    
+    
+    }
+    
+    @media(min-width:992px)  and (max-width:1199px){
+        .test{color:green;}
+
+      
+             
+
+    #second{
+            display: none;
+        }
+
+        .flex-photo{
+          width: 25% !important;
+          margin-left: 5% !important;
+        }
+
+        #boot{
+          margin-top: 6%;
+        }
+
+        #boot{
+          margin-top: 6%;
+        }
+
+        .hide{
+           display: block !important;
+         }
+    
+    
+      #btn1{
+        display: block !important;
+        margin-top: 3% !important;
+      }
+
+      #session{
+        height: 480px;
+       }
+      
+       .phide{
+        display: none;
+       }
+
+       .pro{
+        margin-top: 4% !important;
+       }
+      
+       .navbar ul{
+  margin-left: 60%;
+}
+ 
+
+
+    }
+    
+    @media(min-width:1200px){
+        .test{color:red;}
+      
+        #second{
+            display: none;
+        }
+
+        .flex-photo{
+          width: 25% !important;
+        }
+
+        .php{
+          margin-top: 5% !important;
+        }
+
+        
+        #session{
+        height: 480px;
+       }
+
+       .phide{
+        display: none;
+       }
+      
+       .navbar ul{
+  margin-left: 60%;
+}
+
+    
+    }
+    
+    
+
+    .nav-item{
+        margin-top: 1.5%;
+        margin-left: 3%;
+    }
+
+    .nav-item{
+        margin-right: 8%;
+        transition: 0.5s;
+    }
+
+    .nav-item:hover{
+      border-left: #fff 2px solid;
+      border-top: #fff 2px solid;
+      border-radius: 8px;
+      box-shadow: 5px 5px rgba(36, 11, 54,0.8);
+    }
+
+
+    
+    #second{
+        margin-top: 4%;
+        width:100%;
+    }
+
+    hr {
+        background: #fff;
+    }
+
+    .form-control{
+        width: 100%;
+    }
+
+
+    .form-group{
+        width: 100%;
+        margin-top: 1%;
+    }
+
+
+    .con{
+      display: flex;
+    }
+
+    .media:hover{
+transform: scale(1.2);
+    }
+
+    .media{
+      transition: 1.5s;
+    }
+
+    .card{
+      background: transparent;
+    }
+
+    .card p{
+      color: #fff;
+    }
+
+    .r{
+      border-radius: 20px;
+      transition: 0.5s;
+    }
+
+    .r:hover{
+      transform: scale(1.2);
+      box-shadow: 10px 10px rgba(36, 11, 54,0.8);
+    }
+
+    #session{
+       border-radius: 10px;
+       border: none;
+    }
+      
+    .review{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    }
+
+
+    
+  
+
+
+
+</style>
+<body>
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+
+<div class="container">
+<nav class="navbar navbar-expand-md mb-5 text-danger">
+  <a class="navbar-brand text-white font-weight-bold" href="#" style="font-size:30px;">Protofilo <svg
+    xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor"
+    class="bi bi-pc-display-horizontal font-weight-bold" viewBox="0 0 16 16">
+    <path
+      d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z" />
+  </svg>
+  </a>
+  <button style="background:transparent;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <i class="fa-solid fa-bars text-white"></i>
+          </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link  text-white font-weight-bold" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  text-white font-weight-bold" href="skill.html">Skills</a>
+      </li>
+   
+      
+      <li class="nav-item">
+        <b><a class="nav-link  text-white font-weight-bold" href="contact.html">Contact</a></b>
+      </li>
+      
+
+      
+    </ul>
+  </div>  
+</nav>
+</div>
+
+
+<br>
+
+
+
+
+<div class="container  mt-5">
+
+  <div class="row">
+
+    
+    
+    <div class="card col-xl-4 col-md-6 col-lg-6 col-sm-12 col-12 align-items-center border-0">
+      <i class="fa-solid fa-briefcase fa-4x text-white"></i>
+      <div class="card-body">
+        <p class="card-text h3 text-center">Can Work well under pressure</p>
+      </div>
+    </div>
+    
+    <div class="card col-xl-4 col-md-6 col-lg-6 col-sm-12 col-12 align-items-center border-0">
+      <i class="fa-solid fa-people-group fa-4x text-white"></i>
+      <div class="card-body">
+        <p class="card-text h3 text-center">Can work Well in Team-works</p>
+      </div>
+      <a href="#work1" class="btn btn-primary">Know more</a>
+
+    </div>
+    
+    <div class="card col-xl-4 col-md-6 col-lg-6 col-sm-12 col-12 align-items-center border-0">
+      <i class="fa-solid fa-chalkboard-user fa-4x text-white"></i>
+      <div class="card-body">
+        <p class="card-text h3 text-center">Learn new things quickly</p>
+      </div>
+    </div>
+
+
+   
+
+    </div>
+</div>
+
+<hr style="background:gray; width:60%;" class="mt-5">
+
+
+
+
+<div class="container">
+
+  <div class="row mt-5">
+
+    
+    
+    <div class="card col-xl-4 col-md-6 col-lg-6 col-sm-12 col-12 align-items-center border-0">
+      <i class="fa-solid fa-computer fa-4x text-white"></i>
+      <div class="card-body">
+        <p class="card-text h3 text-center">5 Web Programming Languages</p>
+      </div>
+    </div>
+    
+    <div class="card col-xl-4 col-md-6 col-lg-6 col-sm-12 col-12 align-items-center border-0">
+      <i class="fa-solid fa-book-atlas fa-4x text-white"></i>
+      <div class="card-body">
+        <p href="#book" data-toggle="tooltip" title="Html, Css, Js, Php, Basics of C++, Basics of Python " class="text-decoration-none  card-text h3 text-center" data-placement="bottom">Wrote 6 books in programming</p>
+      </div>
+      <a href="#btn1" class="btn btn-primary">Know more</a>
+
+    </div>
+    
+    <div class="card col-xl-4 col-md-6 col-lg-6 col-sm-12 col-12 align-items-center border-0">
+      <i class="fa-solid fa-person-chalkboard  fa-4x text-white"></i>
+      <div class="card-body">
+        <p class="card-text h3 text-center">Web Trainer</p>
+      </div>
+      <a href="#" class="btn btn-primary">Know more</a> 
+
+    </div>
+</div>
+
+<hr style="background:#fff; width:100%;" class="mt-5 mb-5">
+
+<div class="container">
+
+<h3 class="text-white"> Team work : </h3>
+
+
+<div id="accordion">
+  <div class="card ex">
+    <div class="card-header">
+      <a class="card-link text-white  font-weight-bold" data-toggle="collapse" href="#collapseOne" id="work1">Member of Inovetors Union - Morocco      </a>
+    </div>
+    <div id="collapseOne" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+      <img src="morocco.jpg" style="width:200px;" class="rounded">
+        </div>
+    </div>
+  </div>
+  <div class="card ex">
+    <div class="card-header">
+      <a class="collapsed card-link text-white font-weight-bold" data-toggle="collapse" href="#collapseTwo"  id="work2">
+Member of Yhe Student Union Of Faculty Of Computer And Artificial Intelligence - BNS    </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body font-weight-bold">
+Leader of fisrt Grade (2021), and member of Students Union
+      </div>
+    </div>
+  </div>
+  
+  </div>
+</div>
+</div>
+
+<hr style="background:#fff; width:84%;" class="mt-5 mb-5">
+
+<div class="container">
+
+  <h3 class="text-white"> Programming Books : </h3>
+
+<div class="container justify-content-center" style="display:flex;">
+
+
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" id="btn1">
+    <div class="btn-group" role="group" aria-label="First group">
+      <button type="button" class="btn btn-danger" onclick="book1()">Web 1</button>
+      <button type="button" class="btn btn-danger" onclick="book2()">Web 2</button>
+      <button type="button" class="btn btn-danger" onclick="book3()">Web 3</button>
+      <button type="button" class="btn btn-danger" onclick="book4()">Web 4</button>
+    </div>
+
+    <div class="btn-group mr-2" role="group" aria-label="Second group" id="btn2">
+      <button type="button" class="btn btn-danger" onclick="book5()">C++</button>
+      <button type="button" class="btn btn-danger" onclick="book6()">Python</button>
+      <button type="button" class="btn btn-info" onclick="hide()">Hide all</button>
+    </div>
+
+  
+</div>
+
+</div>
+
+<div class="container">
+
+  
+
+  <div class="card border-0 mt-5 d-none" id="cc1">
+    <div class="pho d-flex justify-content-center">
+    <img class="card-img-top r" src="2.jpg" alt="Meta Technology, Web prograaming learn book" style="width:200px;">
+  </div>
+    <div class="card-body text-center">
+      <h5 class="card-title text-center">Meta Technology 1</h5>
+      <p class="card-text text-center">Web Learn Book , Part 2.</p>
+      <a href="meta1.pdf" class="btn btn-primary" download>Download it now!</a>
+    </div>
+  </div>
+
+
+  <div class="card border-0 mt-5 d-none" id="cc2">
+    <div class="pho d-flex justify-content-center">
+    <img class="card-img-top r" src="1.jpg" alt="Meta Technology, Web prograaming learn book" style="width:200px;">
+  </div>
+    <div class="card-body text-center">
+      <h5 class="card-title text-center">Meta Technology 2</h5>
+      <p class="card-text text-center">Web Learn Book , Part 1.</p>
+      <a href="meta1.pdf" class="btn btn-primary" download>Download it now!</a>
+    </div>
+  </div>
+
+
+  <div class="card border-0 mt-5 d-none" id="cc3">
+    <div class="pho d-flex justify-content-center">
+    <img class="card-img-top r" src="1.jpg" alt="Meta Technology, Web prograaming learn book" style="width:200px;">
+  </div>
+    <div class="card-body text-center">
+      <h5 class="card-title text-center">Meta Technology 3</h5>
+      <p class="card-text text-center">Web Learn Book , Part 1.</p>
+      <a href="meta1.pdf" class="btn btn-primary" download>Download it now!</a>
+    </div>
+  </div>
+
+
+  <div class="card border-0 mt-5 d-none" id="cc4">
+    <div class="pho d-flex justify-content-center">
+    <img class="card-img-top r" src="1.jpg" alt="Meta Technology, Web prograaming learn book" style="width:200px;">
+  </div>
+    <div class="card-body text-center">
+      <h5 class="card-title text-center">Alpha Technology 1</h5>
+      <p class="card-text text-center">Web Exercise Book (MCQ + Task).</p>
+      <a href="meta1.pdf" class="btn btn-primary" download>Download it now!</a>
+    </div>
+  </div>
+
+
+  <div class="card border-0 mt-5 d-none" id="cc5">
+    <div class="pho d-flex justify-content-center">
+    <img class="card-img-top r" src="1.jpg" alt="Meta Technology, Web prograaming learn book" style="width:200px;">
+  </div>
+    <div class="card-body text-center">
+      <h5 class="card-title text-center">Beta Technology</h5>
+      <p class="card-text text-center">C++ Basics learn book.</p>
+      <p class="card-text text-center">(No Frameworks)</p>
+      <a href="meta1.pdf" class="btn btn-primary" download>Download it now!</a>
+    </div>
+  </div>
+
+
+  <div class="card border-0 mt-5 d-none" id="cc6">
+    <div class="pho d-flex justify-content-center">
+    <img class="card-img-top r" src="1.jpg" alt="Meta Technology, Web prograaming learn book" style="width:200px;">
+  </div>
+    <div class="card-body text-center">
+      <h5 class="card-title text-center">Meta Technology 6</h5>
+      <p class="card-text text-center">Python Basics learn book.</p>
+      <p class="card-text text-center">(No Frameworks)</p>
+      <a href="meta1.pdf" class="btn btn-primary" download>Download it now!</a>
+    </div>
+  </div>
+
+
+
+</div>
+
+<hr style="background:#fff; width:100%;" class="mt-5 mb-5">
+
+<div class="container">
+
+<h3 class="text-white"> Web Training : </h3>
+
+<div id="accordion">
+  <div class="card ex">
+    <div class="card-header">
+      <a class="card-link text-white  font-weight-bold" data-toggle="collapse" href="#collapseOne" id="work1">Online Course - Demo  </a>
+    </div>
+    <div id="collapseOne" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+
+        <div class="video text-center">
+          <iframe src="https://drive.google.com/file/d/1cDR0aouOSDiilkwjCHCkjLW1oBstviuz/preview" style="width: 80%;" allow="autoplay" id="session"></iframe>
+          </div>
+                  </div>
+    </div>
+  </div>
+  <div class="card ex">
+    <div class="card-header">
+      <a class="collapsed card-link text-white font-weight-bold" data-toggle="collapse" href="#collapseTwo"  id="work2">
+Offline Course    </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body font-weight-bold">
+
+        <div class="offline w-100 d-flex justify-content-center row">
+          <div class="col-6">
+          <img src="offline.jpg" style="width:100%; border-radius: 7px;">
+        </div>
+        <div class="col-6">
+          <img src="offline2.jpg" style="width:100%; height: 101%; border-radius: 7px;">
+        </div>
+
+        </div>
+        <p class="phide mt-3 text-center">Click on Image to Masimize it.</p>
+
+              </div>
+    </div>
+  </div>
+  
+  </div>
+
+<div class="row mt-5">
+
+  <div class="col-xl-4 col-md-6 col-lg-6 mb-lg-2 col-sm-12 col-12 review">
+    <i class="fa-solid fa-comments-dollar text-white fa-3x"></i>
+    <p class="h5 text-white mt-3">23 Happy Review </p>
+  </div>
+
+  <div class="col-xl-4 col-md-6 col-lg-6 col-sm-12 col-12 review">
+    <i class="fa-solid fa-graduation-cap text-white fa-3x"></i>
+    <p class="h5 text-white mt-3">100 h Training is done </p>
+  </div>
+
+  <div class="col-xl-4 col-md-6 col-lg-6 col-sm-12 col-12 review pro">
+    <i class="fa-solid fa-diagram-project text-white fa-3x"></i>
+    <p class="h5 text-white mt-3">Every session Tasks & projects </p>
+  </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<script src="main.js"></script>
+
+
+  
+
+
+    
+  </body>
+</html>
+
+
